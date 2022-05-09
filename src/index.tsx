@@ -20,3 +20,7 @@ const ReactNative = NativeModules.ReactNative
 export function multiply(a: number, b: number): Promise<number> {
   return ReactNative.multiply(a, b);
 }
+
+export function defaultPubsubTopic(): Promise<string> {
+  return ReactNative.defaultPubsubTopic();
+}

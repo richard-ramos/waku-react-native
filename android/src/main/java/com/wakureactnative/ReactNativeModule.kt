@@ -4,6 +4,7 @@ import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.bridge.ReactContextBaseJavaModule
 import com.facebook.react.bridge.ReactMethod
 import com.facebook.react.bridge.Promise
+import gowaku.Gowaku
 
 class ReactNativeModule(reactContext: ReactApplicationContext) : ReactContextBaseJavaModule(reactContext) {
 
@@ -20,5 +21,9 @@ class ReactNativeModule(reactContext: ReactApplicationContext) : ReactContextBas
     
     }
 
+    @ReactMethod
+    fun defaultPubsubTopic(promise: Promise) {    
+       promise.resolve(Gowaku.defaultPubsubTopic())
+    }
     
 }
