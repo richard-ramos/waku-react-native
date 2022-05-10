@@ -36,13 +36,12 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/richard-ramos/waku-react-native",
-  "author": "Richard Ramos <info@richardramos.me> (https://github.com/richard-ramos)",
+  "repository": "https://github.com/status-im/waku-react-native",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/richard-ramos/waku-react-native/issues"
+    "url": "https://github.com/status-im/waku-react-native/issues"
   },
-  "homepage": "https://github.com/richard-ramos/waku-react-native#readme",
+  "homepage": "https://github.com/status-im/waku-react-native#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },

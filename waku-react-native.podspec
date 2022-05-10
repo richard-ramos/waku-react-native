@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/richard-ramos/waku-react-native.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/status-im/waku-react-native.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   s.vendored_frameworks = 'ios/Gowaku.xcframework'
